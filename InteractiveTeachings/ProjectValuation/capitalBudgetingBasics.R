@@ -38,14 +38,14 @@ capitalBudgetingBasics <- fluidRow(
     style="text-align: center;",
     tags$strong(p("The formula for net present value of project:")),
     withMathJax(),
-    h4("$$NPV = \\left( \\frac{CF_1}{(1 + r)^1} + \\ldots + \\frac{CF_N}{(1 + r)^N}   \\right) - \\text{IC} $$"),
+    h5("$$NPV = \\left( \\frac{CF_1}{(1 + r)^1} + \\ldots + \\frac{CF_N}{(1 + r)^N}   \\right) - \\text{IC} $$"),
     tags$strong("IC = Inicial Cost")
   ),
   tags$div(
     style="text-align: center;",
     tags$strong(p("Another way of expression of formula for net present value of project:")),
     withMathJax(),
-    h4("$$NPV = CF_0 + \\frac{CF_1}{(1 + r)^1} + \\ldots + \\frac{CF_N}{(1 + r)^N}$$"),
+    h5("$$NPV = CF_0 + \\frac{CF_1}{(1 + r)^1} + \\ldots + \\frac{CF_N}{(1 + r)^N}$$"),
   ),
   tags$div(
     style="text-align: center;",

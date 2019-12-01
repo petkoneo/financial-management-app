@@ -33,7 +33,75 @@ cashFlowEstimationLecture <- fluidRow(
               should be added back when estimating cash flow")
   ),
   p(
-    
-  )
+    tags$em("Changes in Net Operating Working Capital -"),
+    tags$span("Payables and accruals increase as a result of the expansion, which 
+              comes with the new project.This reduces the cash needed to finance 
+              inventories and receivables. 
+              The difference between the required increase in operating current assets 
+              and the increase in operating current liabilities is the change in net 
+              current capital. If the change is positive, then additional financing 
+              will be needed.")
+  ),
+  p(
+    tags$em("Interest Charges Are Not Included in Project Cas Flows -"),
+    tags$span("A common mistake made by financial managers is to substract interest 
+              payments when estimating a project's cash flows. This is a mistake 
+              because the cost of debt is already embededd in the cost of capital. 
+              Which again is incorporated inside the Weighted average cost of capital 
+              (WACC).")
+  ),
+  h4("Incremental Cash Flows"),
+  p("The relevant cash flows to be used in project analysis are the difference between 
+    the cash flows the firm will have if it implements the project versus the cash 
+    flows it will have if it rejects the projects. These are called, ", 
+    tags$strong("Incremental Cash Flows.")
+    ),
+  tags$div(
+    style="text-align: center;",
+    p("The formula for Incremental cash flows calculation:"),
+    withMathJax(),
+    h4("$$ICF = CFWP - CFWoP$$"),
+  ),
+  tags$ul(
+    tags$strong(
+      tags$li("ICF = Incremental cash flows"),
+      tags$li("CFWP = Company's Cash flow with the project"),
+      tags$li("CFWoP = Company's Cash flow without the project")
+    )
+  ),
+  tags$em(tags$strong("Expansion Projects and replacement Projects")),
+  p("Two types of projects can be distinguished:"),
+  tags$strong(
+    tags$ul(
+      tags$li("Expansion project"),
+      tags$li("Replacement projects")
+    )
+  ),
+  p("In expansion projects the firms makes an investment into 'new' things, while 
+    in replacement projects the firm replaces existing assets."),
+  tags$em(tags$strong("Sunk Costs")),
+  p("A sunk cost is an outlay related to the project that was incurred in the 
+    past and cannot be recovered in the future regardless of whether or not the 
+    project is accepted. These costs are not incremental therefore are not 
+    relevant in capital budgeting analysis. Improper treatment of sunk cost 
+    can lead to wrong decisions."),
+  tags$em(tags$strong("Opportunity Costs associated with Assets the firm already 
+                      Owns")),
+  p("Oportunity costs for the other hand should be charged to the project, because 
+    without it the project can have an overestimated net present value."),
+  h4("Externalities"),
+  p("Externalities are the effects of a project on other parts of the firm or on 
+    environment. There may be ", 
+    tags$em("negative within-firm externalities "),
+    "like canibalization of own company. The ",
+    tags$em("positive within-firm externalities "),
+    "Which comes when a new project is complementary to already existing projects. 
+    Considering positive externalities often changes a project's NPV from negative 
+    to possitive. ",
+    tags$em("Environmental externalities "),
+    "is the most common type of negative externality. Business ethics are used in 
+    conjunction with governments and legislation rules. However all projects depend 
+    on the Earth remainig health, therefore it should be considered in projects, 
+    even if they cannot be calculated as cash flows per se.")
   
 )
