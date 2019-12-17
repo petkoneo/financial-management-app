@@ -5,8 +5,8 @@ account: petkoneo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1344216
-bundleId: 2630228
+bundleId: 2676890
 url: https://petkoneo.shinyapps.io/FinancialManagementApp/
-when: 1575216361.72092
+when: 1576626065.55117
 asMultiple: FALSE
 asStatic: FALSE

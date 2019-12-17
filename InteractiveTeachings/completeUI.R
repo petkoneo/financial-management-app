@@ -52,10 +52,7 @@ completeUI <- fixedPage(
   p(align = "center",
     "Every text is based on:",
     tags$br(),
-    tags$strong("Financial Management Brigham 13th Edition, Brigham & Ehrhardt"),
-    tags$br(),
-    tags$strong("Created by: "),
-    "Peter Pšenák"
-    )
+    tags$strong("Financial Management Brigham 13th Edition, Brigham & Ehrhardt")
+  )
 )
 
